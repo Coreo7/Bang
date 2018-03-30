@@ -34,12 +34,12 @@ public class LasunchAstronaut : MonoBehaviour {
         obj.Add(Instantiate(AstroMan, CannonOne.transform));
         obj.Add(Instantiate(AstroMan, CannonTwo.transform));
 
-        Debug.Log(obj.Count);
+     //   Debug.Log(obj.Count);
         foreach(GameObject g in obj)
         {
-            Debug.Log("Firing");
+         //   Debug.Log("Firing");
             Rigidbody[] rbody = g.GetComponentsInChildren<Rigidbody>();
-            Debug.Log(rbody.Length);
+          //  Debug.Log(rbody.Length);
             
             foreach(Rigidbody r in rbody)
             {
