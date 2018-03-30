@@ -1,0 +1,320 @@
+fileFormatVersion: 2
+guid: 78ba103706a37284e9bed0e478c70eee
+timeCreated: 1522375747
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Ast_Bip01
+    100002: Ast_Bip01 Footsteps
+    100004: Ast_Bip01 Head
+    100006: Ast_Bip01 HeadNub
+    100008: Ast_Bip01 L Calf
+    100010: Ast_Bip01 L Clavicle
+    100012: Ast_Bip01 L Finger0
+    100014: Ast_Bip01 L Finger01
+    100016: Ast_Bip01 L Finger02
+    100018: Ast_Bip01 L Finger0Nub
+    100020: Ast_Bip01 L Finger1
+    100022: Ast_Bip01 L Finger11
+    100024: Ast_Bip01 L Finger12
+    100026: Ast_Bip01 L Finger1Nub
+    100028: Ast_Bip01 L Finger2
+    100030: Ast_Bip01 L Finger21
+    100032: Ast_Bip01 L Finger22
+    100034: Ast_Bip01 L Finger2Nub
+    100036: Ast_Bip01 L Finger3
+    100038: Ast_Bip01 L Finger31
+    100040: Ast_Bip01 L Finger32
+    100042: Ast_Bip01 L Finger3Nub
+    100044: Ast_Bip01 L Finger4
+    100046: Ast_Bip01 L Finger41
+    100048: Ast_Bip01 L Finger42
+    100050: Ast_Bip01 L Finger4Nub
+    100052: Ast_Bip01 L Foot
+    100054: Ast_Bip01 L Forearm
+    100056: Ast_Bip01 L ForeTwist
+    100058: Ast_Bip01 L ForeTwist1
+    100060: Ast_Bip01 L ForeTwist2
+    100062: Ast_Bip01 L Hand
+    100064: Ast_Bip01 L Thigh
+    100066: Ast_Bip01 L Toe0
+    100068: Ast_Bip01 L Toe0Nub
+    100070: Ast_Bip01 L UpperArm
+    100072: Ast_Bip01 LCalfTwist
+    100074: Ast_Bip01 LCalfTwist1
+    100076: Ast_Bip01 LCalfTwist2
+    100078: Ast_Bip01 LUpArmTwist
+    100080: Ast_Bip01 LUpArmTwist1
+    100082: Ast_Bip01 LUpArmTwist2
+    100084: Ast_Bip01 Neck
+    100086: Ast_Bip01 Pelvis
+    100088: Ast_Bip01 R Calf
+    100090: Ast_Bip01 R Clavicle
+    100092: Ast_Bip01 R Finger0
+    100094: Ast_Bip01 R Finger01
+    100096: Ast_Bip01 R Finger02
+    100098: Ast_Bip01 R Finger0Nub
+    100100: Ast_Bip01 R Finger1
+    100102: Ast_Bip01 R Finger11
+    100104: Ast_Bip01 R Finger12
+    100106: Ast_Bip01 R Finger1Nub
+    100108: Ast_Bip01 R Finger2
+    100110: Ast_Bip01 R Finger21
+    100112: Ast_Bip01 R Finger22
+    100114: Ast_Bip01 R Finger2Nub
+    100116: Ast_Bip01 R Finger3
+    100118: Ast_Bip01 R Finger31
+    100120: Ast_Bip01 R Finger32
+    100122: Ast_Bip01 R Finger3Nub
+    100124: Ast_Bip01 R Finger4
+    100126: Ast_Bip01 R Finger41
+    100128: Ast_Bip01 R Finger42
+    100130: Ast_Bip01 R Finger4Nub
+    100132: Ast_Bip01 R Foot
+    100134: Ast_Bip01 R Forearm
+    100136: Ast_Bip01 R ForeTwist
+    100138: Ast_Bip01 R ForeTwist1
+    100140: Ast_Bip01 R ForeTwist2
+    100142: Ast_Bip01 R Hand
+    100144: Ast_Bip01 R Thigh
+    100146: Ast_Bip01 R Toe0
+    100148: Ast_Bip01 R Toe0Nub
+    100150: Ast_Bip01 R UpperArm
+    100152: Ast_Bip01 RCalfTwist
+    100154: Ast_Bip01 RCalfTwist1
+    100156: Ast_Bip01 RCalfTwist2
+    100158: Ast_Bip01 RUpArmTwist
+    100160: Ast_Bip01 RUpArmTwist1
+    100162: Ast_Bip01 RUpArmTwist2
+    100164: Ast_Bip01 Spine
+    100166: Ast_Bip01 Spine1
+    100168: Ast_Bip01 Spine2
+    100170: Ast_body
+    100172: Ast_door_center
+    100174: Ast_door_center_ctrl
+    100176: Ast_door_glass
+    100178: Ast_door_glass_ctrl
+    100180: Ast_door_reflector
+    100182: Ast_door_reflector_ctrl
+    100184: Ast_door_side_L
+    100186: Ast_door_side_L_ctrl
+    100188: Ast_door_side_R
+    100190: Ast_door_side_R_ctrl
+    100192: Ast_head
+    100194: Ast_helm
+    100196: Ast_helm_helper
+    100198: Ast_helm_ring
+    100200: //RootNode
+    100202: Circle01
+    400000: Ast_Bip01
+    400002: Ast_Bip01 Footsteps
+    400004: Ast_Bip01 Head
+    400006: Ast_Bip01 HeadNub
+    400008: Ast_Bip01 L Calf
+    400010: Ast_Bip01 L Clavicle
+    400012: Ast_Bip01 L Finger0
+    400014: Ast_Bip01 L Finger01
+    400016: Ast_Bip01 L Finger02
+    400018: Ast_Bip01 L Finger0Nub
+    400020: Ast_Bip01 L Finger1
+    400022: Ast_Bip01 L Finger11
+    400024: Ast_Bip01 L Finger12
+    400026: Ast_Bip01 L Finger1Nub
+    400028: Ast_Bip01 L Finger2
+    400030: Ast_Bip01 L Finger21
+    400032: Ast_Bip01 L Finger22
+    400034: Ast_Bip01 L Finger2Nub
+    400036: Ast_Bip01 L Finger3
+    400038: Ast_Bip01 L Finger31
+    400040: Ast_Bip01 L Finger32
+    400042: Ast_Bip01 L Finger3Nub
+    400044: Ast_Bip01 L Finger4
+    400046: Ast_Bip01 L Finger41
+    400048: Ast_Bip01 L Finger42
+    400050: Ast_Bip01 L Finger4Nub
+    400052: Ast_Bip01 L Foot
+    400054: Ast_Bip01 L Forearm
+    400056: Ast_Bip01 L ForeTwist
+    400058: Ast_Bip01 L ForeTwist1
+    400060: Ast_Bip01 L ForeTwist2
+    400062: Ast_Bip01 L Hand
+    400064: Ast_Bip01 L Thigh
+    400066: Ast_Bip01 L Toe0
+    400068: Ast_Bip01 L Toe0Nub
+    400070: Ast_Bip01 L UpperArm
+    400072: Ast_Bip01 LCalfTwist
+    400074: Ast_Bip01 LCalfTwist1
+    400076: Ast_Bip01 LCalfTwist2
+    400078: Ast_Bip01 LUpArmTwist
+    400080: Ast_Bip01 LUpArmTwist1
+    400082: Ast_Bip01 LUpArmTwist2
+    400084: Ast_Bip01 Neck
+    400086: Ast_Bip01 Pelvis
+    400088: Ast_Bip01 R Calf
+    400090: Ast_Bip01 R Clavicle
+    400092: Ast_Bip01 R Finger0
+    400094: Ast_Bip01 R Finger01
+    400096: Ast_Bip01 R Finger02
+    400098: Ast_Bip01 R Finger0Nub
+    400100: Ast_Bip01 R Finger1
+    400102: Ast_Bip01 R Finger11
+    400104: Ast_Bip01 R Finger12
+    400106: Ast_Bip01 R Finger1Nub
+    400108: Ast_Bip01 R Finger2
+    400110: Ast_Bip01 R Finger21
+    400112: Ast_Bip01 R Finger22
+    400114: Ast_Bip01 R Finger2Nub
+    400116: Ast_Bip01 R Finger3
+    400118: Ast_Bip01 R Finger31
+    400120: Ast_Bip01 R Finger32
+    400122: Ast_Bip01 R Finger3Nub
+    400124: Ast_Bip01 R Finger4
+    400126: Ast_Bip01 R Finger41
+    400128: Ast_Bip01 R Finger42
+    400130: Ast_Bip01 R Finger4Nub
+    400132: Ast_Bip01 R Foot
+    400134: Ast_Bip01 R Forearm
+    400136: Ast_Bip01 R ForeTwist
+    400138: Ast_Bip01 R ForeTwist1
+    400140: Ast_Bip01 R ForeTwist2
+    400142: Ast_Bip01 R Hand
+    400144: Ast_Bip01 R Thigh
+    400146: Ast_Bip01 R Toe0
+    400148: Ast_Bip01 R Toe0Nub
+    400150: Ast_Bip01 R UpperArm
+    400152: Ast_Bip01 RCalfTwist
+    400154: Ast_Bip01 RCalfTwist1
+    400156: Ast_Bip01 RCalfTwist2
+    400158: Ast_Bip01 RUpArmTwist
+    400160: Ast_Bip01 RUpArmTwist1
+    400162: Ast_Bip01 RUpArmTwist2
+    400164: Ast_Bip01 Spine
+    400166: Ast_Bip01 Spine1
+    400168: Ast_Bip01 Spine2
+    400170: Ast_body
+    400172: Ast_door_center
+    400174: Ast_door_center_ctrl
+    400176: Ast_door_glass
+    400178: Ast_door_glass_ctrl
+    400180: Ast_door_reflector
+    400182: Ast_door_reflector_ctrl
+    400184: Ast_door_side_L
+    400186: Ast_door_side_L_ctrl
+    400188: Ast_door_side_R
+    400190: Ast_door_side_R_ctrl
+    400192: Ast_head
+    400194: Ast_helm
+    400196: Ast_helm_helper
+    400198: Ast_helm_ring
+    400200: //RootNode
+    400202: Circle01
+    2100000: Ast_head
+    2100002: Ast_body
+    2100004: Ast_helm
+    2300000: Ast_door_center
+    2300002: Ast_door_glass
+    2300004: Ast_door_reflector
+    2300006: Ast_door_side_L
+    2300008: Ast_door_side_R
+    2300010: Ast_helm
+    2300012: Ast_helm_ring
+    3300000: Ast_door_center
+    3300002: Ast_door_glass
+    3300004: Ast_door_reflector
+    3300006: Ast_door_side_L
+    3300008: Ast_door_side_R
+    3300010: Ast_helm
+    3300012: Ast_helm_ring
+    4300000: Ast_head
+    4300002: Ast_body
+    4300004: Ast_helm_ring
+    4300006: Ast_helm
+    4300008: Ast_door_center
+    4300010: Ast_door_reflector
+    4300012: Ast_door_side_R
+    4300014: Ast_door_side_L
+    4300016: Ast_door_glass
+    9500000: //RootNode
+    13700000: Ast_body
+    13700002: Ast_head
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 1
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
