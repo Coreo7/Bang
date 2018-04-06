@@ -669,6 +669,7 @@ GameObject:
   - component: {fileID: 2066006621}
   - component: {fileID: 2066006622}
   - component: {fileID: 2066006623}
+  - component: {fileID: 2066006624}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -799,8 +800,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Shader: {fileID: 4800000, guid: 22fe62a5d4de91a4995c1363cbc2492e, type: 3}
   Mode: 1
-  Timer: 137.68044
+  Timer: 138.84087
   Speed: 1
   Frequency: 12
   Amplitude: 0.05
   AutomaticTimer: 1
+--- !u!114 &2066006624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2066006615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45099d624c1e6c14e9514f4e5ea1ed9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _clearAlpha: 1
