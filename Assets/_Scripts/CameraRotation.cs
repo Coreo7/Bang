@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class CameraRotation : MonoBehaviour {
 
-    public float Speed = 1;
+    public float SpaceSpeed = 1;
+    public float Speed2 = 1;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -12,6 +14,7 @@ public class CameraRotation : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        transform.Rotate(Vector3.back, Speed * Time.deltaTime);
+        transform.Rotate(Vector3.back, SpaceSpeed * Time.deltaTime);
+        transform.Rotate(Vector3.up, Speed2 * Time.deltaTime);
     }
 }
