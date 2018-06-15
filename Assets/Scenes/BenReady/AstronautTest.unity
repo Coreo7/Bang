@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: fcd30ff080ea0034d9d917d4f86f7894, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.049412385, g: 0.08545724, b: 0.21018925, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -124,8 +124,13 @@ GameObject:
   - component: {fileID: 161998929}
   - component: {fileID: 161998928}
   - component: {fileID: 161998927}
+  - component: {fileID: 161998931}
+  - component: {fileID: 161998932}
+  - component: {fileID: 161998934}
+  - component: {fileID: 161998935}
+  - component: {fileID: 161998936}
   m_Layer: 0
-  m_Name: Camera
+  m_Name: SpaceyCam
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -153,7 +158,7 @@ Camera:
   m_GameObject: {fileID: 161998926}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 2
+  m_ClearFlags: 1
   m_BackGroundColor: {r: 0.07586217, g: 1, b: 0, a: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
@@ -194,6 +199,103 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &161998931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 161998926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 249169bbea0dd51478b14718e62f7e54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Shader: {fileID: 4800000, guid: 6b426a8c366d0584dadb551db862ddeb, type: 3}
+  AutomaticPhase: 1
+  Phase: 19.692444
+  ConvertToGrayscale: 0
+  NoiseIntensity: 0.121
+  ScanlinesIntensity: 1.05
+  ScanlinesCount: 2133
+  ScanlinesOffset: 0
+  VerticalScanlines: 0
+  Distortion: 2
+  CubicDistortion: 2
+  Scale: 0.36
+--- !u!114 &161998932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 161998926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82fb164ebb287b84f9796dfaf56826cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  analogTv: {fileID: 161998931}
+  Speed: 15
+--- !u!114 &161998934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 161998926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6e75ef5ee858bd4bab281c187d027f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Shader: {fileID: 4800000, guid: aa077ae19c4093844b27e3a70f542644, type: 3}
+  RandomActivation: 1
+  RandomEvery: {x: 6, y: 8}
+  RandomDuration: {x: 1, y: 2}
+  Mode: 2
+  SettingsInterferences:
+    Speed: 2
+    Density: 8
+    MaxDisplacement: 2
+  SettingsTearing:
+    Speed: 0.2
+    Intensity: 0.25
+    MaxDisplacement: 0.05
+    AllowFlipping: 1
+    YuvColorBleeding: 1
+    YuvOffset: 0.5
+--- !u!114 &161998935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 161998926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03a36ef005a80844b8e0ffada3adad9b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Shader: {fileID: 4800000, guid: 22fe62a5d4de91a4995c1363cbc2492e, type: 3}
+  Mode: 1
+  Timer: 10.729348
+  Speed: 0.2
+  Frequency: 12
+  Amplitude: 0.01
+  AutomaticTimer: 1
+--- !u!114 &161998936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 161998926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca037f4bdb3f772408f958bc6cd2b647, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Shader: {fileID: 4800000, guid: 447e63f892fae1d49b961d2132c02b5a, type: 3}
+  RedRefraction: 1
+  GreenRefraction: 1.032
+  BlueRefraction: 1
+  PreserveAlpha: 0
 --- !u!1001 &826452764
 Prefab:
   m_ObjectHideFlags: 0
@@ -548,8 +650,8 @@ GameObject:
   - component: {fileID: 1079613819}
   - component: {fileID: 1079613818}
   - component: {fileID: 1079613817}
-  - component: {fileID: 1079613816}
   - component: {fileID: 1079613820}
+  - component: {fileID: 1079613816}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -557,13 +659,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &1079613816
-AudioListener:
+--- !u!114 &1079613816
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1079613815}
   m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f1e238f765a9814aac32e8174dae262, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speedMultiplier: 2
 --- !u!124 &1079613817
 Behaviour:
   m_ObjectHideFlags: 0
@@ -579,7 +686,7 @@ Camera:
   m_GameObject: {fileID: 1079613815}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 2
+  m_ClearFlags: 1
   m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
@@ -626,7 +733,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1079613815}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 45099d624c1e6c14e9514f4e5ea1ed9c, type: 3}
   m_Name: 
