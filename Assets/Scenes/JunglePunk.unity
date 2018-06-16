@@ -6806,6 +6806,7 @@ GameObject:
   - component: {fileID: 450810349}
   - component: {fileID: 450810350}
   - component: {fileID: 450810351}
+  - component: {fileID: 450810352}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -7016,7 +7017,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Shader: {fileID: 4800000, guid: 22fe62a5d4de91a4995c1363cbc2492e, type: 3}
   Mode: 0
-  Timer: 715.787
+  Timer: 727.2627
   Speed: 1.06
   Frequency: 12.13
   Amplitude: -0.03
@@ -7048,7 +7049,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Shader: {fileID: 4800000, guid: 6b426a8c366d0584dadb551db862ddeb, type: 3}
   AutomaticPhase: 1
-  Phase: 13.192548
+  Phase: 15.89911
   ConvertToGrayscale: 0
   NoiseIntensity: 0.071
   ScanlinesIntensity: 3.77
@@ -7058,6 +7059,33 @@ MonoBehaviour:
   Distortion: 0.2
   CubicDistortion: 0.6
   Scale: 0.75
+--- !u!114 &450810352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 450810337}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6e75ef5ee858bd4bab281c187d027f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Shader: {fileID: 4800000, guid: aa077ae19c4093844b27e3a70f542644, type: 3}
+  RandomActivation: 1
+  RandomEvery: {x: 1, y: 2}
+  RandomDuration: {x: 1, y: 2}
+  Mode: 0
+  SettingsInterferences:
+    Speed: 10
+    Density: 8
+    MaxDisplacement: 2
+  SettingsTearing:
+    Speed: 1
+    Intensity: 0.25
+    MaxDisplacement: 0.05
+    AllowFlipping: 0
+    YuvColorBleeding: 1
+    YuvOffset: 0.5
 --- !u!4 &452351991 stripped
 Transform:
   m_PrefabParentObject: {fileID: 405050, guid: a1873d405102db84ca93204caccb1b27, type: 2}
@@ -28068,6 +28096,46 @@ Prefab:
     - target: {fileID: 19873040, guid: 8d218001a1e147542bc5a9058259e49f, type: 2}
       propertyPath: InitialModule.startColor.minColor.a
       value: 1.0000
+      objectReference: {fileID: 0}
+    - target: {fileID: 19873040, guid: 8d218001a1e147542bc5a9058259e49f, type: 2}
+      propertyPath: InitialModule.startSize.scalar
+      value: 0.0300
+      objectReference: {fileID: 0}
+    - target: {fileID: 19873040, guid: 8d218001a1e147542bc5a9058259e49f, type: 2}
+      propertyPath: InitialModule.startSize.minScalar
+      value: 0.1500
+      objectReference: {fileID: 0}
+    - target: {fileID: 19873040, guid: 8d218001a1e147542bc5a9058259e49f, type: 2}
+      propertyPath: InitialModule.startSize.scalar
+      value: 0.0300
+      objectReference: {fileID: 0}
+    - target: {fileID: 19873040, guid: 8d218001a1e147542bc5a9058259e49f, type: 2}
+      propertyPath: InitialModule.startSize.minScalar
+      value: 0.1500
+      objectReference: {fileID: 0}
+    - target: {fileID: 19873040, guid: 8d218001a1e147542bc5a9058259e49f, type: 2}
+      propertyPath: InitialModule.startSize.scalar
+      value: 0.0300
+      objectReference: {fileID: 0}
+    - target: {fileID: 19873040, guid: 8d218001a1e147542bc5a9058259e49f, type: 2}
+      propertyPath: InitialModule.startSize.minScalar
+      value: 0.1500
+      objectReference: {fileID: 0}
+    - target: {fileID: 19873040, guid: 8d218001a1e147542bc5a9058259e49f, type: 2}
+      propertyPath: InitialModule.startSize.scalar
+      value: 0.0300
+      objectReference: {fileID: 0}
+    - target: {fileID: 19873040, guid: 8d218001a1e147542bc5a9058259e49f, type: 2}
+      propertyPath: InitialModule.startSize.minScalar
+      value: 0.1500
+      objectReference: {fileID: 0}
+    - target: {fileID: 19873040, guid: 8d218001a1e147542bc5a9058259e49f, type: 2}
+      propertyPath: InitialModule.startSize.scalar
+      value: 0.0300
+      objectReference: {fileID: 0}
+    - target: {fileID: 19873040, guid: 8d218001a1e147542bc5a9058259e49f, type: 2}
+      propertyPath: InitialModule.startSize.minScalar
+      value: 0.1500
       objectReference: {fileID: 0}
     - target: {fileID: 19873040, guid: 8d218001a1e147542bc5a9058259e49f, type: 2}
       propertyPath: InitialModule.startSize.scalar
